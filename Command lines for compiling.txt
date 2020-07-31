@@ -1,0 +1,5 @@
+
+g++ -o output1 $(mysql_config --cflags) 180123063_tt_violation.cpp $(mysql_config --libs)
+./output1
+g++ -o output2 $(mysql_config --cflags) 180123063_count_credits.cpp $(mysql_config --libs)
+./output2
